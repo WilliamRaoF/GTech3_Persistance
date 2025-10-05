@@ -165,10 +165,16 @@ else
 
 ## Pour la pratique
 
-**TP : Sauvegarde simple de multiple joueurs**
+Mini-TP — Save Basique+ (C#/.NET)
+Objectif
 
-* Créer une classe Joueur.
-* Sauvegarder dans un fichier JSON.
-* Charger au démarrage si le fichier existe.
-* Menu console pour créer/charger/afficher un joueur.
+Faire un jeu console minimal avec :
+
+1 profil 
+
+1 slot de sauvegarde 
+
+Menu : Nouvelle partie / Charger / Jouer (modifier score) / Sauvegarder / Quitter
+
+Robustesse simple : si la save est absente ou invalide → recréer une save par défaut proprement
 
