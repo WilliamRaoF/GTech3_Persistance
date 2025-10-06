@@ -76,13 +76,6 @@ Disponible par défaut dans .NET 5+.
 ```csharp
 using System.Text.Json;
 
-public class Joueur
-{
-    public string Nom { get; set; }
-    public int Niveau { get; set; }
-    public int Score { get; set; }
-}
-
 var joueur = new Joueur { Nom = "Alice", Niveau = 3, Score = 2500 };
 
 string json = JsonSerializer.Serialize(
@@ -91,6 +84,14 @@ string json = JsonSerializer.Serialize(
 );
 
 File.WriteAllText("joueur.json", json);
+
+public class Joueur
+{
+    public string Nom { get; set; }
+    public int Niveau { get; set; }
+    public int Score { get; set; }
+}
+
 ```
 
 Crée un fichier `joueur.json` contenant les données sérialisées.
