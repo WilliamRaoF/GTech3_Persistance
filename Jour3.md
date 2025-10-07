@@ -72,7 +72,7 @@ Pour un jeu simple avec profils et sauvegardes :
 3. Vérifier que le service MongoDB est lancé :
 ```
 
-http://localhost:27017
+localhost:27017
 
 ````
 ou via `services.msc` sous Windows.
